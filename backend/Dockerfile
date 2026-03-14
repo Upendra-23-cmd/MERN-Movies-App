@@ -8,4 +8,4 @@ RUN npm install
 
 COPY . .
 
-CMD ["start", "index.js"]
+CMD ["node", "index.js"]
