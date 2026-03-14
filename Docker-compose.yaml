@@ -32,8 +32,6 @@ services:
     build: ./frontend
     container_name: frontend
     restart: always
-    depends_on:
-      - backend
     networks:
       - movies-network
     ports:
